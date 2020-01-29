@@ -6,7 +6,12 @@ body {
     background: linear-gradient(to bottom right, #3f87a6, #ebf8e1, #f69d3c);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.row *{
+    border: 1px solid white;
+    height: 200px;
+    color: white;
+    background: purple;
+}
 .grid-container-intro{
     display: grid;
     grid-template-columns: 100px 100px 200px 200px ;
