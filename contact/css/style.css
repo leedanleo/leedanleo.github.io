@@ -17,9 +17,8 @@ form{
 
 .row #back-img:hover{
     text-align:center;
-    height:100px;
+    height:120px;
     font-weight:bold;
-    background-color: green;
 }
 .btn {
     margin-left:20px;

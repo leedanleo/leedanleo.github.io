@@ -47,6 +47,7 @@ body {
 
 .row #portal *:hover{
     background: green;
+    height: 200px;
 }
 .row #footer-link * {
     font-size:18px;
