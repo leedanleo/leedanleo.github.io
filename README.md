@@ -2,6 +2,8 @@
 Portfolio
 
 images acquired from:
-flaticon.com
-clipart.com
-dlpng.com
+flaticon.com eduation.png, project.png
+clipart.com form.png arrow.png
+dlpng.com work.png
+cleanpng.com activities.png
+pinclipart.com paint.png
