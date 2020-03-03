@@ -11,7 +11,9 @@ body {
     height:200px;
     font-weight:bold;
 }
-
+div#back.container{
+    background-color: transparent;
+}
 .row #back-img:hover{
     text-align:center;
     height:120px;
@@ -19,14 +21,13 @@ body {
     background-color: teal;
     border-radius: 5px;
 }
-
-.project-head{
+.experience-head{
     font-size: 30px;
     font-weight: bold;
     text-align:center;
     margin: 10px 10px 10px 10px;
 }
-.database , .full-stack, .network, .machine-learning{
+.experience{
     font-size: 24px;
     color: white;
     font-weight: bold;
@@ -35,31 +36,32 @@ body {
     margin: 10px 10px 10px 10px;
     border-radius: 5px;
 }
-
-.row #core-technology-project,.row #keywords-project, .row #description-project,.row #duration-project, .row #title-project{
+.container {
+    background-color: rgba(20, 121, 82, 0.514);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+div.row{
+    margin-right: auto;
+}
+.row #core-technology-position,.row #keywords-position, .row #description-position,.row #duration-position, .row #title-position , .row #company-position, .row #location-position{
     color: white;
-    background-color: darkslategray;
+    background-color: rgb(184, 129, 46);
     border-radius: 5px;
     margin: 10px 10px 10px 10px;
 }
 
-.row #core-technology-project,.row #keywords-project{
+.row #core-technology-position,.row #keywords-position{
     font-size: 14px;
 }
-.row #title-project{
+.row #title-position , .row #company-position{
     font-size: 20px;
     float: left;
 }
 
-.row #duration-project{
+.row #duration-position{
     font-size:18px;
 }
-.row #description-project{
+.row #description-position{
     font-size: 16px;
-}
-
-#border-end.container{
-    border-bottom: dashed white;
-    border-width: 5px;
-    margin-bottom: 30px;
 }
