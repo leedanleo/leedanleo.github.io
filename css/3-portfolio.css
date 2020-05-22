@@ -35,16 +35,20 @@ body {
     font-weight:bold;
 
 }
-.row #portal{
-    font-size:20px;
+.portfolio {
+    font-size:30px;
     font-weight: bold;
     color: black;
+    text-align: center;
 }
 
-.row #portal *:hover{
+.portfolio :hover{
     background: teal;
+    font-size:30px;
+    font-weight: bold;
     border-radius: 5px;
-    height: 200px;
+    text-align: center;
+    color: white;
 }
 .row #footer-link * {
     font-size:18px;
