@@ -1,46 +1,250 @@
 <!DOCTYPE html>
-<html>
-    <title>
-        Profile-Daniel Lee
-    </title>
-    <head>
-        <link rel="stylesheet" href="css/3-portfolio.css">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
-    <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12" id="intro-1">Hi, My name is Daniel</div>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href='./style.css'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/31a00af4ac.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light p-3">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_key">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#exp_key">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proj_key">Education</a>
+            </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#contact_key">Contact</a> -->
+            </li>
+          </ul>
         </div>
-        <div class="row">
-            <div class="col-sm-12"><img src="images/profile.png" id="headshot"></div>
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-12" id="intro-2">
-                I am a recent graduate from Portland State University with my Masters of Science in Computer Science. I also hold a Masters Degree in Renewable Energy Engineering from Oregon Institute of Technology as well as a Masters Certification in Project Management from Portland State Univerity.
-                I am currently looking for a Software Development full time position and for more information about my professional career and educational career please take a look at my<a href="https://leedanleo.github.io/portfolio" target="_blank" id="psu"> portfolio.</a>
-                Thank you for visiting.
+      </div>
+    </nav>
+
+    <section class="intro" id="intro_key">
+      <div class="container mt-5 header-content ">
+        <div class="row row_header">
+          <div class="col-12 title">
+            <h3 class="greeting ">Hi, my name is</h3>
+            <!-- <h1 class="name text-center">
+              <strong>Daniel Lee</strong>
+            </h1> -->
+            <div class="animated_intro">
+              <h3 class="moving_txt ml-5 text-left">
+                <li class="animated_txt" data-aos="zoom-in-right" data-aos-duration="1200" data-aos-delay="1000">
+                  <span><strong>Daniel Lee</strong></span>
+                </li>
+              </h3>
             </div>
+            <div class="nav_icons1 text-center">
+              <a href="mailto:leedan.cz@gmail.com" target="_blank" aria-label="email link"><i
+                  class="fas fa-envelope-square fa-3x p-3"></i></a>
+              <a href="https://github.com/leedanleo" target="_blank" aria-label="github link"><i
+                  class="fab fa-github-square fa-3x p-3"></i></a>
+              <a href="https://www.linkedin.com/in/leedanleo/" target="_blank" aria-label="linkedin link"><i
+                  class="fab fa-linkedin fa-3x p-3"></i></a>
+            </div>
+          </div>
         </div>
-    </div>
-    <br>
+      </div>
+    </section>
+  </header>
 
-    <div class="portfolio"><a href="https://leedanleo.github.io/portfolio/"><img src="images/portfolio.png" id="portfolio"></a><br>Portfolio</div>
-
-    <br><br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4" id="footer-link"><a href="mailto:leedanleo.91@gmail.com" target ="_top"> <img src="images/mail.png" height="50" width ="50" alt="Mail"></a><br>Leedanleo.91@gmail.com</div>
-            <div class="col-sm-4" id="footer-link"><a href="https://www.linkedin.com/in/leedanleo/" target="_blank"> <img src="images/linkedin.png" height="50" width ="50" alt="Linkedin"></a><br>Leedanleo</div>
-            <div class="col-sm-4" id="footer-link"><a href="https://github.com/leedanleo" target="_blank"><img src="images/GitHub.png" height="50" width ="50" alt="Github"></a><br>Leedanleo</div>
-        </div><br>
-        <div class="row">
-            <div class="col-sm-12" id="date-update">Posted by: Daniel Lee. <br> This page was last edited on 21 May 2020, at 23:59 (PST)</div>
+  <section class="section container about mx-auto d-block" id="about_key">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4 col-12 text-center mt-5 mb-3">
+        <img data-aos="fade-right" data-aos-duration="1500" src="images/profile.jpg" alt="self-image"
+          class="image-fluid text-center mx-auto my-auto self-image " width="250">
+      </div>
+      <div class="col-lg-8 col-12">
+        <div class="intro_about">
+          <div class="about_title">
+            <h2 data-aos="fade-up" data-aos-duration="1000">About Me</h2>
+          </div>
+          <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+            I am a Software Engineer in the energy and reliability. I love finding solutions to everyday problems as well as finding ways to automate it as possible. I enjoy tinkering and learning new things I get lost learning new skills or finding out how things work.
+          </p>
         </div>
-        <div class="row">
-            <div class="col-sm-12" id="copyright">Copyright Daniel Lee 2020</div>
-        </div>
+      </div>
     </div>
-    </body>
+  </section>
+
+  <!-- experience section -->
+  <section class="section experience mx-auto d-block text-center rounded" id="exp_key">
+    <div class="container jobs">
+      <h2 data-aos="fade-up" data-aos-duration="1000">Experience</h2>
+      <div class="row expRow mx-auto">
+        <div class="col-lg-5 col-12 job p-4 text-left" data-aos="fade-right" data-aos-duration="1000"
+          data-aos-delay="400">
+          <h6>January 2021 - Present</h6>
+          <h5>Software Engineer</h5>
+          <p class="company-name">General Electric Digital</p>
+          <div class="row">
+            <ul>
+              <li>Designing, developing and testing GE’s SCADA software to create tailored energy management system products and services.</li>
+              <li>Working with electric utility customers/operators to understand the required functional specifications.</li>
+              <li>Design and deliver the software in the areas of communication protocols, SCADA applications, and pipeline management applications.</li>
+              <li>Identify and report critical bugs with solutions to main product team and assigning critical need.</li>            
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12 job p-4 text-left" data-aos="fade-left" data-aos-duration="1500"
+          data-aos-delay="300">
+          <h6>June 2020 - December 2020</h6>
+          <h5>Software Engineering Intern</h5>
+          <p class="company-name">Novus Labs</p>
+          <div class="row">
+            <ul>
+              <li>Writing automated tests for smart and IoT devices to verify feature set and connectivity integrity.</li>
+              <li>Utilized source control management to manage code base within team.</li>
+              <li>Generating documentation of results for tested devices for clients to ensure issues with the build are communicated effectively.</li>
+              <li>Building proof of concept computer vision application for real boundary condition and object detection.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-5 col-12 job p-4 text-left" data-aos="fade-right" data-aos-duration="1500"
+        data-aos-delay="300">
+        <h6>June 2019 - September 2019</h6>
+        <h5>Software Engineering Intern</h5>
+        <p class="company-name">Hewlett-Packard Inc</p>
+        <div class="row">
+          <ul>
+            <li>Taking ownership of automation tests on HP consumer products with HP's in-house test suite in Python and cohesively programmed tests for the team’s feature set.</li> 
+            <li>Provide project feedback in agile stand-up meetings and demos on embedded systems. This allowed me to dive deep to understand all parts and levels of the project.</li> 
+            <li>Developed version-controlled firmware packages in continuous integration and continuous deployment environment.</li>   
+          </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- education section -->
+  <section class="section container experience mx-auto text-center " id="proj_key">
+    <h2 data-aos="fade-up" data-aos-duration="1000" class="project_sec p-3">Education</h2>
+    
+    <div class="col-12 job p-6  text-center" data-aos="fade-right" data-aos-duration="1500"
+    data-aos-delay="300">
+    <h6>2017 - 2020</h6>
+    <h5>Master of Science Computer Science</h5>
+    <p class="college-name">Portland State University</p>
+    </div>
+
+    <div class="col-12 job p-6 text-center" data-aos="fade-left" data-aos-duration="1500"
+    data-aos-delay="300">
+    <h6>2013 - 2015</h6>
+    <h5>Master of Science Renewable Energy Engineering</h5>
+    <p class="college-name">Oregon Institute of Technology</p>
+    </div>
+
+    <div class="col-12 job p-6 text-center" data-aos="fade-right" data-aos-duration="1500"
+    data-aos-delay="300">
+    <h6>2014 - 2015</h6>
+    <h5>Master Certification Project Management</h5>
+    <p class="college-name">Portland State University</p>
+    </div>
+
+    <div class="col-12 job p-6 text-center" data-aos="fade-left" data-aos-duration="1500"
+    data-aos-delay="300">
+    <h6>2009 - 2013</h6>
+    <h5>Bachelor of Science Renewable Energy Engineering</h5>
+    <p class="college-name">Oregon Institute of Technology</p>
+    </div>
+
+  </section>
+
+  <!-- contact section
+  <section class="section contact mx-auto d-block text-center" id="contact_key">
+    <h2 data-aos="fade-up" data-aos-duration="1000">Contact Me</h2>
+    <form action="https://formspree.io/f/mzbygvpv" method="POST" class="container contact_form grid"
+      data-aos="fade-up-right" data-aos-duration="800" data-aos-delay="400">
+      <div class="row justify-content-md-center">
+        <div class="col-md-8 col-12 contact_inputs grid">
+          <div class="contact_content">
+            <label for="name" class="hidden">Name</label>
+            <input type="text" name="name" class="contact_input" id="name" placeholder="Name" required>
+          </div>
+          <div class="contact_content">
+            <label for="email" class="hidden">Email</label>
+            <input type="email" name="email" class="contact_input" id="email" placeholder="Email" required>
+          </div>
+          <div class="contact_content">
+            <label for="subject" class="hidden">Subject</label>
+            <input type="text" name="subject" class="contact_input" id="subject" placeholder="Subject">
+          </div>
+          <div class="contact_content">
+            <label for="message" class="hidden">Message</label>
+            <textarea name="message" cols="30" rows="7" id="message" placeholder="Message" required></textarea>
+          </div>
+          <div class="contact_content mt-2">
+            <button type="submit" class="button button--flex">
+              Send Message
+              <i class="far fa-paper-plane"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </form>
+  </section> -->
+
+  <!-- go to top button  -->
+  <button id="goTopBtn"><a class="icon-link" href="index.html"><i class="fas fa-chevron-circle-up"></i><span
+        class="tooltiptext">Back to Top</span></a></button>
+
+  <footer class="section footer mx-auto d-block text-center">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-12 justify-content-center nav_icons1">
+        <a href="mailto:leedan.cz@gmail.com" target="_blank" aria-label="email link"><i
+            class="fas fa-envelope-square fa-3x p-3"></i></a>
+        <a href="https://github.com/leedanleo" target="_blank" aria-label="github link"><i
+            class="fab fa-github-square fa-3x p-3"></i></a>
+        <a href="https://www.linkedin.com/in/leedanleo/" target="_blank" aria-label="linkedin link"><i
+            class="fab fa-linkedin fa-3x p-3"></i></a>
+      </div>
+      <div class="col-md-8 col-12 justify-content-center">
+        Daniel Lee <i class="far fa-copyright"></i>2022
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="app.js"></script>
+</body>
+
 </html>
+© 2022 GitHub, Inc.
