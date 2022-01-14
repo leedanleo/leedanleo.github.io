@@ -121,6 +121,11 @@ h2 {
   margin-bottom: 12px;
 }
 
+.college-name{
+  font-size: 1.5rem;
+  color: #181a1b;
+  font-weight: bold;
+}
 .about .intro p {
   color: #333;
   font-size: 1rem;
